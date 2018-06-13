@@ -4,8 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class MetodosData {
-	
-	
+		
 	public Boolean verifcaDiaUtil(Date dataParametro) {
 		Calendar calendario = Calendar.getInstance();
 		calendario.setTime(dataParametro);
@@ -13,8 +12,7 @@ public class MetodosData {
 				|| (calendario.get(Calendar.DAY_OF_WEEK) == Calendar.SUNDAY)) {
 			return false;
 		}
-
-		return true;
+			return true;
 	}
 
 }

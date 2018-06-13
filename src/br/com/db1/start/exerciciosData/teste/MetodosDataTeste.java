@@ -13,9 +13,9 @@ public class MetodosDataTeste {
 
 	@Test
 	public void deveVerificarDiaUtil() {
-		MetodosData data = new MetodosData();
 		
-		Assert.assertTrue(data.verifcaDiaUtil(new Date()));
+		MetodosData data = new MetodosData();		
+		Assert.assertTrue(data.verifcaDiaUtil(new Date()));		
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		Date sabado;
